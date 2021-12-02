@@ -2,7 +2,7 @@ name: test1
 application: testapp1
 serviceAccount: keeldemo-service-account
 artifacts:
-- name: ghcr.io/osoriano/nginx-hello-plain-text
+- name: osoriano/nginx-hello-plain-text
   type: docker
   reference: my-docker-artifact
   tagVersionStrategy: semver-tag
