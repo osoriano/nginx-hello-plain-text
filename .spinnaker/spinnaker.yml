@@ -9,7 +9,7 @@ artifacts:
 environments:
   - name: dev
     locations:
-      account: deploy-keel
+      account: osoriano.k8s.local
       regions: []
     resources:
     - kind: k8s/resource@v1
@@ -69,7 +69,7 @@ environments:
     - type: depends-on
       environment: dev
     locations:
-      account: deploy-keel
+      account: osoriano.k8s.local
       regions: []
     resources:
     - kind: k8s/resource@v1
